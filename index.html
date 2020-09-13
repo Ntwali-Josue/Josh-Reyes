@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </head>
 
   <body>
@@ -14,15 +13,77 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita recusandae aliquam mollitia obcaecati nobis architecto porro voluptatem adipisci quis molestiae ad ullam, quidem totam voluptas ratione est ipsam explicabo dicta?
     </p>
     <form id="survey-form" action="index.html" method="get" >
-      <label for="name" id="name-label"></label>
-      <input type="text" id="name" placeholder="Your name">
-      <label for="email" id="email-label"></label>
+      <label for="name" id="name-label">name</label>
+      <input type="text" id="name" required placeholder="Your name">
+      <label for="email" id="email-label">email</label>
       <input type="email" id="email" required placeholder="Your email">
-      <label for="number" id="number-label"></label>
+      <label for="number" id="number-label">number</label>
       <input type="number" id="number" required min="0" max="100" placeholder="Your number">
-      <select name="dropdown" id="dropdown"></select>
+      <select name="dropdown" id="dropdown">
+        <option value="" id="dropdown1">A dropdown</option>
+        <option value="" id="dropdown2">Another dropdown</option>
+        <option value="" id="dropdown3">One more dropdown</option>
+      </select>
+
+      <div>
+        <h2>This is the question</h2>
+        <input type="radio" name="question1" value="answer1" id="answer1">
+        <label for="answer1">answer1</label>
+        <input type="radio" name="question1" value="answer2" id="answer2">
+        <label for="answer2">answer2</label>
+        <input type="radio" name="question1" value="answer3" id="answer3">
+        <label for="answer3">answer3</label>
+        <input type="radio" name="question1" value="answer4" id="answer4">
+        <label for="answer4">answer4</label>
+        <input type="radio" name="question1" value="answer5" id="answer5">
+        <label for="answer5">answer5</label>
+      </div>
+
+      <div>
+        <h2>This is the question</h2>
+        <input type="radio" name="question2" value="answer6" id="answer6">
+        <label for="answer6">answer6</label>
+        <input type="radio" name="question2" value="answer7" id="answer7">
+        <label for="answer7">answer7</label>
+        <input type="radio" name="question2" value="answer8" id="answer8">
+        <label for="answer8">answer8</label>
+        <input type="radio" name="question2" value="answer9" id="answer9">
+        <label for="answer9">answer9</label>
+        <input type="radio" name="question2" value="answer10" id="answer10">
+        <label for="answer10">answer10</label>
+      </div>
+
+      <div>
+        <h2>This is the question</h2>
+        <input type="radio" name="question3" value="answer11" id="answer11">
+        <label for="answer11">answer11</label>
+        <input type="radio" name="question3" value="answer12" id="answer12">
+        <label for="answer12">answer12</label>
+        <input type="radio" name="question3" value="answer13" id="answer13">
+        <label for="answer13">answer13</label>
+        <input type="radio" name="question3" value="answer14" id="answer14">
+        <label for="answer14">answer14</label>
+        <input type="radio" name="question3" value="answer15" id="answer15">
+        <label for="answer15">answer15</label>
+      </div>
+
+      <div>
+        <h2>This is the question</h2>
+        <input type="checkbox" value="answer16" id="answer16">
+        <label for="answer16">answer16</label>
+        <input type="checkbox" value="answer17" id="answer17">
+        <label for="answer17">answer17</label>
+        <input type="checkbox" value="answer18" id="answer18">
+        <label for="answer18">answer18</label>
+        <input type="checkbox" value="answer19" id="answer19">
+        <label for="answer19">answer19</label>
+        <input type="checkbox" value="answer20" id="answer20">
+        <label for="answer20">answer20</label>
+      </div>
+
     </form>
-    
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
   </body>
 </html>
