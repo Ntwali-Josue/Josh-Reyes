@@ -13,13 +13,14 @@
     <p id="description">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita recusandae aliquam mollitia obcaecati nobis architecto porro voluptatem adipisci quis molestiae ad ullam, quidem totam voluptas ratione est ipsam explicabo dicta?
     </p>
-    <form id="survey-form" action="index.html" method="get">
+    <form id="survey-form" action="index.html" method="get" >
       <label for="name" id="name-label"></label>
-      <input type="text" id="name">
+      <input type="text" id="name" placeholder="Your name">
       <label for="email" id="email-label"></label>
-      <input type="email" id="email" required>
+      <input type="email" id="email" required placeholder="Your email">
       <label for="number" id="number-label"></label>
-      <input type="number" id="number" required min="0" max="100">
+      <input type="number" id="number" required min="0" max="100" placeholder="Your number">
+      <select name="dropdown" id="dropdown"></select>
     </form>
     
     <script  src="js/index.js"></script>
